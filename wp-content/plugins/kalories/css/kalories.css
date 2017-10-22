@@ -1,0 +1,31 @@
+/* TYPOGRAPHY */
+html {font-size: 62.5%}
+body {font: 300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #444444}
+a {color: #666666; text-decoration: none}
+a:hover {color:#79BA49}
+
+/* STRUCTURE */
+.wrapper {max-width: 1280px; width: 95%; margin: 0 auto; position: relative}
+.header {position: relative}
+.logo {background-color: #468847; line-height: 50px; text-align: center; font-size: 20px; font-weight: bold}
+.logo a {color: #FFFFFF}
+.form {margin-bottom: 20px}
+.main {position: relative; float: left; width: 70%; margin: 20px 0}
+.sidebar {position: relative; float: left; width: 30%; margin: 20px 0}
+.filters {margin: 50px 0 0}
+.footer {background-color: #CDCDCD; line-height: 30px; text-align: center; font-size: 16px; clear: left}
+
+/* TITLES */
+h1 {color: #3C763D}
+h2 {color: #464d52}
+
+/* TABLES */
+.kalories_meal_list th {border-bottom: 1px solid #333333; line-height:20px; text-align: left}
+.kalories_meal_list td {border-bottom: 1px solid #999999; line-height:20px}
+.kalories_meal_list p {margin: 0 0 20px 0}
+.kalories_meal_list tr.bad {background-color: #FFAAAA}
+.kalories_meal_list tr.good {background-color: #C1E1B9}
+.kalories_meal_list .options-column {width: 150px}
+.kalories_meal_list .date-column {width: 150px}
+.kalories_meal_list .label-column {width: 200px}
+
